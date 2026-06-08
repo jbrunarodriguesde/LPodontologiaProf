@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
+  <defs>
+    <linearGradient id="toothGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0077B6;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#023E8A;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  <!-- Background circle -->
+  <circle cx="32" cy="32" r="30" fill="url(#toothGrad)" />
+  <!-- Tooth shape -->
+  <path d="M32 10 C25 10, 18 15, 18 23 C18 28, 20 32, 21 37 C22 42, 23 50, 27 50 C30 50, 31 44, 32 44 C33 44, 34 50, 37 50 C41 50, 42 42, 43 37 C44 32, 46 28, 46 23 C46 15, 39 10, 32 10Z" fill="white" opacity="0.95"/>
+  <!-- Small cross -->
+  <rect x="29" y="17" width="6" height="2" rx="1" fill="#2A9D8F"/>
+  <rect x="31" y="15" width="2" height="6" rx="1" fill="#2A9D8F"/>
+</svg>
